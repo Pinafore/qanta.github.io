@@ -1,0 +1,19 @@
+title: QANTA Project
+description: >
+  The QANTA project uses trivia competitions to compare computer systems
+  against each other and expert humans in games of question answering.
+  Our aim is to improve question answering for both humans and machines.
+email: qanta@googlegroups.com
+
+theme: minima
+
+markdown: kramdown
+
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
