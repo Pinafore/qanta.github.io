@@ -1,19 +1,39 @@
-title: QANTA Project
-description: >
-  The QANTA project uses trivia competitions to compare computer systems
-  against each other and expert humans in games of question answering.
-  Our aim is to improve question answering for both humans and machines.
-email: qanta@googlegroups.com
+title: "QANTA"
+description: "A collaboration between the University of Maryland and the University of California Berkeley studying question answering and human–computer competition."
+url: https://new.qanta.org
+baseurl:
+logo: /img/logo.png
 
-theme: minima
-
-markdown: kramdown
+markdown: CommonMark
+commonmark:
+  options:
+    - FOOTNOTES
+    - UNSAFE
+  extensions:
+    - autolink
+    - strikethrough
+    - table
 
 permalink: pretty
+
+sass:
+  style: compressed
+  load_paths:
+    - node_modules
 
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - Rakefile
   - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
   - vendor
+  - docs
 
+plugins:
+  - jekyll-commonmark
+  - jekyll-feed
+  - jekyll-seo-tag
