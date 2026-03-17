@@ -1,6 +1,11 @@
 ---
 layout: article
 title: How to Stump a Computer
+description: Guide to writing adversarial quiz bowl questions that fool AI systems while remaining fair to expert humans.
+permalink: /stump-a-computer/
+nav: true
+nav_order: 4
+nav_label: "How to Stump a Computer"
 ---
 
 # How to Stump a Computer

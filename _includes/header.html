@@ -10,15 +10,15 @@
     <ul class="nav navbar-nav">
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle{% if page.url contains '/competition/' %} active-section{% endif %}"
-           href="#" id="navbarCompetition" role="button"
-           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle{% if page.url contains '/competition/' %} active-section{% endif %}" href="#"
+          id="navbarCompetition" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Competition
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarCompetition">
           {% assign current_comp = site.data.competitions | where: "current", true | first %}
           {% if current_comp %}
-          <a class="dropdown-item" href="{{ site.baseurl }}/competition/{{ current_comp.year }}/">{{ current_comp.label }} <span class="badge badge-primary ml-1">Current</span></a>
+          <a class="dropdown-item" href="{{ site.baseurl }}/competition/{{ current_comp.year }}/">{{ current_comp.label
+            }} <span class="badge badge-primary ml-1">Current</span></a>
           <div class="dropdown-divider"></div>
           <h6 class="dropdown-header">Past Years</h6>
           {% endif %}
@@ -31,9 +31,8 @@
       </li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle{% if page.url contains '/research/' %} active-section{% endif %}"
-           href="#" id="navbarResearch" role="button"
-           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle{% if page.url contains '/research/' %} active-section{% endif %}" href="#"
+          id="navbarResearch" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Research
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarResearch">
@@ -43,20 +42,13 @@
         </div>
       </li>
 
+      {%- assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" %}
+      {%- for np in nav_pages %}
       <li class="nav-item">
-        <a class="nav-link{% if page.url contains '/data-and-code' %} active-section{% endif %}"
-           href="{{ site.baseurl }}/data-and-code/">Data &amp; Code</a>
+        <a class="nav-link{% if page.url contains np.url %} active-section{% endif %}"
+          href="{{ np.url | relative_url }}">{{ np.nav_label | default: np.title }}</a>
       </li>
-
-      <li class="nav-item">
-        <a class="nav-link{% if page.url contains '/get-involved' %} active-section{% endif %}"
-           href="{{ site.baseurl }}/get-involved/">Get Involved</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link{% if page.url contains '/events' %} active-section{% endif %}"
-           href="{{ site.baseurl }}/events/">Events</a>
-      </li>
+      {%- endfor %}
 
     </ul>
   </div>

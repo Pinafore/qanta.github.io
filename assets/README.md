@@ -43,12 +43,12 @@ Headshots used on project pages and team listings. Target: 400×400px or larger,
 |---|---|---|
 | `qanta-logo.png` | Full QANTA wordmark/logo | **Needed** — source on Google Sites requires auth |
 
-Favicons are in `img/` (separate from `assets/`) referenced by `_includes/top.html`:
-- `img/favicon-32x32.png`
-- `img/favicon-16x16.png`
-- `img/apple-touch-icon.png`
+Favicons live in `assets/images/favicon/`, referenced by `_includes/top.html`:
+- `assets/images/favicon/favicon-32x32.png`
+- `assets/images/favicon/favicon-16x16.png`
+- `assets/images/favicon/apple-touch-icon.png`
 
-**To generate favicons:** Upload a square logo to [realfavicongenerator.net](https://realfavicongenerator.net), download the package, and drop the files into `img/`.
+**To generate favicons:** Upload a square logo to [realfavicongenerator.net](https://realfavicongenerator.net), download the package, and drop the files into `assets/images/favicon/`.
 
 ---
 

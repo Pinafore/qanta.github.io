@@ -1,6 +1,7 @@
 ---
-layout: article
+layout: project
 title: QBLink
+authors: [ahmed-elgohary, chen-zhao, jordan-boyd-graber]
 description: "Sequential open-domain QA dataset with 18,644 multi-step sequences (56,000 Q&A pairs) built from quiz bowl tossups. Tests contextual reasoning across chains of related questions."
 venue: EMNLP 2018
 year: 2018
@@ -28,22 +29,9 @@ Each sequence contains:
 
 Example sequences cover topics such as Bitcoin's inventor or Ronald Reagan's presidency, where later questions reference earlier answers to test contextual reasoning.
 
-## Download
-
-| Split | File |
-|---|---|
-| Train | [QBLink-train.json](https://drive.google.com/file/d/1OFNQcxv8l1R0xOrmz6mKqBfECBHBB_Yx/view) |
-| Dev | [QBLink-dev.json](https://drive.google.com/file/d/1OFNQcxv8l1R0xOrmz6mKqBfECBHBB_Yx/view) |
-| Test | [QBLink-test.json](https://drive.google.com/file/d/1OFNQcxv8l1R0xOrmz6mKqBfECBHBB_Yx/view) |
-
 ## Citation
 
 > Ahmed Elgohary, Chen Zhao, Jordan Boyd-Graber.
 > **Dataset and Baselines for Sequential Open-Domain Question Answering.**
 > *EMNLP 2018.*
 
-## Authors
-
-- Ahmed Elgohary — elgohary@cs.umd.edu
-- Chen Zhao — chenz@cs.umd.edu
-- Jordan Boyd-Graber — jbg@cs.umd.edu

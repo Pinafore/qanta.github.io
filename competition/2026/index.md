@@ -1,6 +1,8 @@
 ---
-layout: overview
+layout: competition
 title: 2026 Competition
+status: current
+description: The world's first multimodal Quizbowl competition — combining text and image clues. Compete as a human team, write questions, or build a multimodal AI system.
 ---
 
 # QANTA 2026: Multimodal Quiz Bowl

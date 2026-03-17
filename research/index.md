@@ -1,6 +1,7 @@
 ---
 layout: overview
 title: Research
+description: QANTA research spans adversarial QA, sequential reasoning, conversational question answering, and knowledge graph systems. Includes publications, projects, and open datasets.
 ---
 
 # Research
@@ -30,10 +31,7 @@ QANTA investigates question answering at the intersection of natural language pr
 
 ## Selected Publications
 
-| Paper | Authors | Venue |
-|---|---|---|
-{% for paper in site.data.papers %}| {% if paper.url %}[{{ paper.title }}]({{ paper.url }}){% else %}{{ paper.title }}{% endif %} | {{ paper.authors }} | {{ paper.venue }} {{ paper.year }} |
-{% endfor %}
+{%- include papers-table.html -%}
 
 ## Principal Investigator
 

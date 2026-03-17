@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: project
 title: Adversarial Question Writing
 description: "Human-in-the-loop generation of adversarial quiz bowl questions that stump computers but remain answerable by expert humans. Includes a live writing interface and ~1,000 question dataset."
 venue: TACL 2019
@@ -32,10 +32,6 @@ From the [Data & Code](/data-and-code/) page, download:
 - **Prior version**: `qanta.advtest.2018.04.18.json`
 
 A README explains all dataset field mappings.
-
-## Authors
-
-{% include author-grid.html author_ids=page.authors %}
 
 ## Citation
 

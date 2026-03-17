@@ -1,6 +1,11 @@
 ---
 layout: overview
 title: Data & Code
+description: QANTA datasets, GitHub repositories, and CodaLab leaderboard for question answering research.
+permalink: /data-and-code/
+nav: true
+nav_label: "Data & Code"
+nav_order: 4
 ---
 
 # Data & Code
@@ -22,10 +27,7 @@ All QANTA datasets and code are freely available for research use.
 
 ## Datasets
 
-| Dataset | Description | Download |
-|---|---|---|
-{% for ds in site.data.datasets %}| {% if ds.page %}[{{ ds.short_name }}]({{ ds.page }}){% else %}{{ ds.short_name }}{% endif %} | {{ ds.description | truncatewords: 15 }} | {% assign dl_splits = ds.splits | where_exp: "s", "s.url" %}{% if dl_splits.size > 0 %}{% for split in dl_splits %}[{{ split.name }}]({{ split.url }}){% unless forloop.last %} · {% endunless %}{% endfor %}{% else %}[Contact us](mailto:{{ site.contact_email }}){% endif %} |
-{% endfor %}
+{%- include dataset-table.html -%}
 
 See the [Datasets page](/research/datasets/) for full descriptions and citation information.
 

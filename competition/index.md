@@ -1,6 +1,7 @@
 ---
 layout: overview
 title: Competitions
+description: All QANTA competitions — current and past — pitting expert humans against AI question answering systems in quiz bowl format.
 ---
 
 # Competitions

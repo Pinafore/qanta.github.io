@@ -1,6 +1,8 @@
 ---
-layout: overview
+layout: competition
 title: 2025 Competition
+status: past
+description: The 2025 QANTA competition — Human–AI Cooperative QA, bringing together expert quiz bowl players and AI systems at UMD.
 ---
 
 # QANTA 2025: Human–AI Cooperative QA

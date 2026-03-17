@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+description: QANTA uses trivia competitions to benchmark AI question answering against expert humans, advancing NLP research through adversarial datasets and human-computer collaboration.
 explore:
   - title: "2026 Competition"
     url: /competition/2026/
@@ -35,15 +36,15 @@ Led by **[Jordan Boyd-Graber]({{ site.pi.url }})** (University of Maryland), QAN
 <section class="py-4 px-4 my-2 section-card">
 <h2 class="mt-0">Explore</h2>
 <div class="row mt-3">
-{%- for card in page.explore %}<div class="col-md-4 mb-3"><div class="card h-100 card-accent shadow-sm"><div class="card-body"><h5 class="card-title"><a href="{{ card.url }}" class="stretched-link text-decoration-none text-dark">{{ card.title }}</a></h5><p class="card-text text-muted">{{ card.text }}</p>{% for b in card.badges %}<span class="badge {{ b.class }}">{{ b.label }}</span>{% endfor %}</div></div></div>
-{%- endfor %}</div>
+{%- include explore-cards.html -%}
+</div>
 </section>
 
 <section class="py-4">
 <h2>In the News</h2>
 <div class="mt-3">
-{%- for item in site.data.news %}<div class="news-item"><span class="news-year">{{ item.year }}</span>{% if item.url %}<a href="{{ item.url }}">{{ item.text }}</a>{% elsif item.html %}{{ item.html }}{% else %}{{ item.text }}{% endif %}</div>
-{%- endfor %}</div>
+{%- include news-list.html -%}
+</div>
 </section>
 
 <section class="py-3">

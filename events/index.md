@@ -1,6 +1,10 @@
 ---
 layout: overview
 title: Events
+description: Full timeline of QANTA competitions and events from 2015 to the present.
+nav: true
+nav_label: "Events"
+nav_order: 6
 ---
 
 # Events

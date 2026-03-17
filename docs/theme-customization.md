@@ -1,4 +1,8 @@
-# Theme Customization Guide
+---
+layout: article
+title: Theme Customization
+description: Guide for developers modifying the QANTA site's visual design, SCSS theming, and Webpack build pipeline.
+---
 
 This guide is for developers who want to modify the visual design or build pipeline.
 

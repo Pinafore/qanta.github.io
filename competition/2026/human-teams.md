@@ -1,5 +1,5 @@
 ---
-layout: overview
+layout: article
 title: "2026 Competition: Human Teams"
 ---
 
