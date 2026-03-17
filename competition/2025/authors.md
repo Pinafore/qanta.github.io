@@ -69,4 +69,4 @@ Submitted questions are scored on four dimensions (25 points each):
 
 ## Contact
 
-[qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+[{{ site.contact_email }}](mailto:{{ site.contact_email }})

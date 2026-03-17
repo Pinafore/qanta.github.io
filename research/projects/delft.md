@@ -1,6 +1,10 @@
 ---
 layout: article
 title: DELFT
+description: "Factoid QA system combining knowledge graph and free-text reasoning via graph neural networks over Wikipedia. Outperforms BERT-based baselines on entity-rich questions."
+venue: WWW 2020
+year: 2020
+badges: [system, dataset]
 ---
 
 # DELFT: Complex Factoid QA with a Free-Text Knowledge Graph

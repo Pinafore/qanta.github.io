@@ -22,7 +22,7 @@ Play in QANTA 2026 — the first quiz bowl competition to include **multimodal q
 
 ## Registration
 
-Registration details to be announced. Sign up for updates: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+Registration details to be announced. Sign up for updates: [{{ site.contact_email }}](mailto:{{ site.contact_email }})
 
 ## Prizes
 
@@ -30,4 +30,4 @@ Prize details to be announced.
 
 ## Contact
 
-[qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+[{{ site.contact_email }}](mailto:{{ site.contact_email }})

@@ -51,7 +51,7 @@ Best-performing human trivia team: **$200**
 
 Submit a QA system to be evaluated for accuracy on adversarial questions, calibration, and in-person competition performance.
 
-**Submission**: [Dynabench — RQA task](https://dynabench.org/tasks/RQA) or email [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+**Submission**: [Dynabench — RQA task](https://dynabench.org/tasks/RQA) or email [{{ site.contact_email }}](mailto:{{ site.contact_email }})
 
 **Prizes:**
 - 1st place: $500
@@ -67,4 +67,4 @@ Submit a QA system to be evaluated for accuracy on adversarial questions, calibr
 
 ## Contact
 
-[qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+[{{ site.contact_email }}](mailto:{{ site.contact_email }})

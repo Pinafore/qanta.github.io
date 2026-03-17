@@ -5,6 +5,8 @@ title: 2026 Competition
 
 # QANTA 2026: Multimodal Quiz Bowl
 
+<img src="{{ site.baseurl }}/assets/images/heroes/competition-2026.jpg" alt="QANTA 2026 Competition" class="img-fluid rounded mb-4" style="width:100%;">
+
 QANTA 2026 is the world's **first multimodal Quizbowl competition** — questions combine **text and images**, testing whether AI systems and human players can reason across modalities together.
 
 Building on the human–AI collaboration format introduced in 2025, QANTA 2026 raises the stakes: clues may include photographs, diagrams, artworks, maps, or scientific figures alongside the pyramid-style text clues. Expert humans read images naturally — can AI do the same?
@@ -72,4 +74,4 @@ This format tests:
 
 ## Contact
 
-Questions about QANTA 2026? Email [qanta@googlegroups.com](mailto:qanta@googlegroups.com) or reach out to [Jordan Boyd-Graber](mailto:jbg@umiacs.umd.edu).
+Questions about QANTA 2026? Email [{{ site.contact_email }}](mailto:{{ site.contact_email }}) or reach out to [Jordan Boyd-Graber](mailto:{{ site.pi.email }}).

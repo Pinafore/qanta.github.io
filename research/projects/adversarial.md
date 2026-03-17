@@ -1,6 +1,11 @@
 ---
 layout: article
 title: Adversarial Question Writing
+description: "Human-in-the-loop generation of adversarial quiz bowl questions that stump computers but remain answerable by expert humans. Includes a live writing interface and ~1,000 question dataset."
+venue: TACL 2019
+year: 2019
+badges: [dataset, interface]
+authors: [eric-wallace, pedro-rodriguez, shi-feng, ikuya-yamada, jordan-boyd-graber]
 ---
 
 # Adversarial Writing of Quiz Bowl Questions
@@ -30,11 +35,7 @@ A README explains all dataset field mappings.
 
 ## Authors
 
-- Eric Wallace
-- Pedro Rodriguez
-- Shi Feng
-- Ikuya Yamada
-- Jordan Boyd-Graber
+{% include author-grid.html author_ids=page.authors %}
 
 ## Citation
 

@@ -5,6 +5,8 @@ title: 2025 Competition
 
 # QANTA 2025: Human–AI Cooperative QA
 
+<img src="{{ site.baseurl }}/assets/images/heroes/competition-2025.jpg" alt="QANTA 2025 Competition" class="img-fluid rounded mb-4" style="width:100%;">
+
 Welcome to QANTA 2025 — the world's first **Human–AI Cooperative Trivia** competition! It's an interactive battlefield to discover who really reigns supreme in question answering: humans, AI systems, or a perfect team-up.
 
 <div class="row mt-4 mb-4">
@@ -68,4 +70,4 @@ AI is really good at answering questions — except when it isn't. Can systems k
 
 ## Contact
 
-[qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+[{{ site.contact_email }}](mailto:{{ site.contact_email }})

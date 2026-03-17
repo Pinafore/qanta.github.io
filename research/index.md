@@ -37,4 +37,10 @@ QANTA investigates question answering at the intersection of natural language pr
 
 ## Principal Investigator
 
-**[Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg/)** — University of Maryland, College Park. Research interests: machine learning, probabilistic graphical models, and their applications in natural language processing.
+<div class="d-flex align-items-center mt-3">
+  <img src="{{ site.baseurl }}/assets/images/people/jordan-boyd-graber.png" alt="{{ site.pi.name }}" class="rounded-circle mr-4 avatar-md">
+  <div>
+    <strong><a href="{{ site.pi.url }}">{{ site.pi.name }}</a></strong> — University of Maryland, College Park.<br>
+    Research interests: machine learning, probabilistic graphical models, and their applications in natural language processing.
+  </div>
+</div>

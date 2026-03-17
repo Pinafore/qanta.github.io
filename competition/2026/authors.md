@@ -37,8 +37,8 @@ Each multimodal question follows the same pyramid format as a standard tossup â€
 
 ## Submission
 
-Submission details and the question submission portal will be announced. Sign up for updates: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+Submission details and the question submission portal will be announced. Sign up for updates: [{{ site.contact_email }}](mailto:{{ site.contact_email }})
 
 ## Contact
 
-[qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+[{{ site.contact_email }}](mailto:{{ site.contact_email }})

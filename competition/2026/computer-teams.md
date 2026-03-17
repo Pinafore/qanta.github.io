@@ -31,8 +31,8 @@ Prize details to be announced.
 
 ## Registration & Submission
 
-System submission portal and technical specifications (API format, image delivery protocol, latency requirements) will be announced. Sign up for updates: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+System submission portal and technical specifications (API format, image delivery protocol, latency requirements) will be announced. Sign up for updates: [{{ site.contact_email }}](mailto:{{ site.contact_email }})
 
 ## Contact
 
-[qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+[{{ site.contact_email }}](mailto:{{ site.contact_email }})

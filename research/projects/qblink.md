@@ -1,6 +1,10 @@
 ---
 layout: article
 title: QBLink
+description: "Sequential open-domain QA dataset with 18,644 multi-step sequences (56,000 Q&A pairs) built from quiz bowl tossups. Tests contextual reasoning across chains of related questions."
+venue: EMNLP 2018
+year: 2018
+badges: [dataset]
 ---
 
 # QBLink: Sequential Open-Domain Question Answering

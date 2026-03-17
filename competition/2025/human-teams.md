@@ -34,10 +34,10 @@ QANTA welcomes quiz bowl players of all experience levels — from seasoned tour
 
 ## Register
 
-Register via the Google Form linked from [qanta@googlegroups.com](mailto:qanta@googlegroups.com) or contact us directly.
+Register via the Google Form linked from [{{ site.contact_email }}](mailto:{{ site.contact_email }}) or contact us directly.
 
 **Deadline**: June 10, 2025
 
 ## Contact
 
-[qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+[{{ site.contact_email }}](mailto:{{ site.contact_email }})

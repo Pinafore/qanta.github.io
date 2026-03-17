@@ -22,8 +22,10 @@ body {
 .qanta-hero {
   background-color: $dark;
   background-image:
-    radial-gradient(ellipse at 20% 60%, rgba(204,65,47,0.18) 0%, transparent 55%),
-    radial-gradient(ellipse at 80% 20%, rgba(204,65,47,0.10) 0%, transparent 50%);
+    linear-gradient(rgba(40,40,40,0.72), rgba(40,40,40,0.72)),
+    url("/assets/images/heroes/home-hero.jpg");
+  background-size: cover;
+  background-position: center;
   color: #ffffff;
 }
 
@@ -65,12 +67,6 @@ body {
   font-size: 1.15em;
   font-weight: 400;
   color: rgba(255,255,255,0.85);
-}
-
-.lead-dark {
-  font-size: 1.15em;
-  font-weight: 400;
-  color: $body-color;
 }
 
 // ── Navbar ────────────────────────────────────────────────────────────
@@ -284,18 +280,6 @@ pre {
   flex-shrink: 0;
 }
 
-// ── Home page sections ────────────────────────────────────────────────
-.home-section {
-  padding: 3rem 0;
-}
-
-.home-section-alt {
-  background-color: #ffffff;
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
-  padding: 3rem 1.5rem;
-}
-
 // ── Footer ────────────────────────────────────────────────────────────
 .footer {
   font-size: 0.875em;
@@ -321,8 +305,29 @@ pre {
   flex-wrap: wrap;
 }
 
+// ── People / avatars ──────────────────────────────────────────────────
+// Use these instead of inline style="width:Xpx..." on headshots
+.avatar-sm {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.avatar-md {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+// ── Section card (white inset box, used on home page Explore section) ─
+.section-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
 // ── Utility ───────────────────────────────────────────────────────────
-.centered { text-align: center; }
 .no-padding { padding: 0; }
 .text-meta { font-size: 0.875rem; color: #888; }
 

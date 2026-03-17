@@ -1,6 +1,10 @@
 ---
 layout: article
 title: CANARD
+description: "40,527 question-rewriting pairs for conversational QA, testing coreference resolution and ellipsis in multi-turn dialog. Built on the QuAC dataset. Licensed CC BY-SA 4.0."
+venue: EMNLP 2019
+year: 2019
+badges: [dataset]
 ---
 
 # CANARD: Question-in-Context Rewriting

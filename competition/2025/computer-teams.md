@@ -36,14 +36,14 @@ Computer systems are scored on three dimensions (33 points each):
 
 Submit your system via:
 - **Dynabench**: [dynabench.org/tasks/RQA](https://dynabench.org/tasks/RQA)
-- **Direct email**: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+- **Direct email**: [{{ site.contact_email }}](mailto:{{ site.contact_email }})
 
 **Deadline**: June 7, 2025
 
 ## Baseline & Resources
 
-A baseline system and leaderboard infrastructure are available in [Pinafore/qanta-codalab](https://github.com/Pinafore/qanta-codalab).
+A baseline system and leaderboard infrastructure are available in [Pinafore/qanta-codalab]({{ site.github.codalab }}).
 
 ## Contact
 
-[qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+[{{ site.contact_email }}](mailto:{{ site.contact_email }})

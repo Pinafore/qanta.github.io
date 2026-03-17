@@ -1,8 +1,22 @@
 title: "QANTA"
 description: "A collaboration between the University of Maryland and the University of California Berkeley studying question answering and human–computer competition."
 url: https://new.qanta.org
-baseurl:
+baseurl: ""
 logo: /img/logo.png
+
+# ── Site-wide contact & people ────────────────────────────────────────
+contact_email: qanta@googlegroups.com
+
+pi:
+  name: Jordan Boyd-Graber
+  url: http://users.umiacs.umd.edu/~jbg/
+  email: jbg@umiacs.umd.edu
+
+# ── GitHub repositories ───────────────────────────────────────────────
+github:
+  org: https://github.com/Pinafore
+  main: https://github.com/Pinafore/qb
+  codalab: https://github.com/Pinafore/qanta-codalab
 
 markdown: CommonMark
 commonmark:

@@ -5,16 +5,18 @@ title: Datasets
 
 # Datasets
 
-All QANTA datasets are freely available for research use. See [`_data/datasets.yml`](https://github.com/Pinafore/qb) to update links or add new datasets.
+All QANTA datasets are freely available for research use.
 
 ---
 
 {% for ds in site.data.datasets %}
+
 ## {{ ds.name }}
 
 {{ ds.description }}
 
 {% if ds.splits %}
+
 | Split | Download |
 |---|---|
 {% for split in ds.splits %}| {{ split.name }} | {% if split.url %}[Download]({{ split.url }}){% else %}—{% endif %} |
