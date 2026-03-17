@@ -34,6 +34,10 @@ sass:
   style: compressed
   load_paths:
     - node_modules
+  quiet_deps: true              # suppress warnings from Bootstrap 4 internals (node_modules)
+  silence_deprecations:
+    - import                    # @import required by Bootstrap 4 variable-override pattern;
+                                # @use is not compatible — silence until Bootstrap 5 upgrade
 
 exclude:
   - Gemfile
