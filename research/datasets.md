@@ -8,4 +8,4 @@ description: Freely available QANTA datasets for question answering research —
 
 All QANTA datasets are freely available for research use.
 
-{%- include dataset-catalog.html -%}
+{% include dataset-catalog.html %}

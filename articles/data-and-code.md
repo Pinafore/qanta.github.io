@@ -27,7 +27,7 @@ All QANTA datasets and code are freely available for research use.
 
 ## Datasets
 
-{%- include dataset-table.html -%}
+{% include dataset-table.html %}
 
 See the [Datasets page](/research/datasets/) for full descriptions and citation information.
 

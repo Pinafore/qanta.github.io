@@ -31,7 +31,7 @@ QANTA investigates question answering at the intersection of natural language pr
 
 ## Selected Publications
 
-{%- include papers-table.html -%}
+{% include papers-table.html %}
 
 ## Principal Investigator
 
