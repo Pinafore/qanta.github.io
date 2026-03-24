@@ -1,31 +1,54 @@
 ---
 layout: home
-title: QANTA Project
+title: Home
+description: QANTA uses trivia competitions to benchmark AI question answering against expert humans, advancing NLP research through adversarial datasets and human-computer collaboration.
+explore:
+  - title: "2026 Competition"
+    url: /competition/2026/
+    text: "The world's first multimodal Quizbowl competition — text and image clues. Compete, write questions, or build a multimodal AI system."
+    badges:
+      - label: "Coming 2026"
+        class: badge-danger
+  - title: Research
+    url: /research/
+    text: "Projects and datasets spanning adversarial QA, sequential reasoning, conversational contexts, and knowledge graph QA."
+    badges:
+      - label: "4 Projects"
+        class: badge-secondary
+      - label: "5 Datasets"
+        class: badge-secondary
+  - title: "Data &amp; Code"
+    url: /data-and-code/
+    text: "Download QANTA datasets and explore open-source code on GitHub. Evaluate your system on CodaLab."
+    badges:
+      - label: "Open Source"
+        class: badge-secondary
 ---
 
-## QANTA Project
+<section class="py-2">
+<h2 class="mt-0">What is QANTA?</h2>
 
-The QANTA project at the University of Maryland uses trivia competitions to compare computer systems against each other and expert humans in games of question answering. The aim is to improve question answering: helping computers better answer questions from learning how trivia experts answer questions, helping understand how to explain question answering in human-computer teams, and helping humans author challenging, interesting questions efficiently.
+The QANTA project uses trivia competitions to compare computer systems against expert humans in games of question answering. Our goal is to advance question answering — helping computers learn from how trivia experts think, studying human–computer collaboration, and building tools that help humans write challenging questions efficiently.
 
-Led by professor **Dr. Jordan Boyd-Graber**, a team of graduate and undergraduate students from computer science, language science, and information science builds interfaces, algorithms, and datasets to improve human and computer question answering.
+Led by **[Jordan Boyd-Graber]({{ site.pi.url }})** (University of Maryland), QANTA brings together researchers from computer science, linguistics, and information science at UMD and UC Berkeley.
+</section>
 
-We'd love for you to join us in our 2025 competition! See videos of our previous events against top trivia champs, or read about our system:
+<section class="py-4 px-4 my-2 section-card">
+<h2 class="mt-0">Explore</h2>
+<div class="row mt-3">
+{%- include explore-cards.html -%}
+</div>
+</section>
 
-- **News and coverage**
-  - Question-Answering System Built by UMD, UC Boulder Bests Ken Jennings (2015)
-  - UMD Computerized System Beats Human Quiz Bowl Team at Atlanta Exhibition (2017)
-  - How to write questions computers cannot answer
-  - UMD CS Undergrads vs. Trivia Experts: 2019 2022
+<section class="py-4">
+<h2>In the News</h2>
+<div class="mt-3">
+{%- include news-list.html -%}
+</div>
+</section>
 
-## QANTA Dataset
+<section class="py-3">
+<h2>Contact</h2>
 
-With the cooperation of the quiz bowl community, we compile datasets of questions that can challenge question answering systems. If you're a computer science researcher, this is likely what you came here for.
-
-## Human vs. Machine Competitions
-
-Try our human vs. machine competitions to experience how modern question answering systems stack up against top human trivia experts.
-
-## Contact
-
-For questions or concerns about QANTA, contact **Jordan Boyd-Graber** or email **qanta@googlegroups.com**.
-
+Questions about QANTA? Email **[{{ site.contact_email }}](mailto:{{ site.contact_email }})** or reach out to [Jordan Boyd-Graber](mailto:{{ site.pi.email }}) directly. Website maintained by the QANTA team.
+</section>
