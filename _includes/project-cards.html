@@ -1,6 +1,7 @@
 {%- assign projects = site.pages | where_exp: "p", "p.url contains '/research/projects/'" | sort: "year" | reverse %}
 {%- for p in projects %}
-{%- unless p.url == '/research/projects/' %}<div class="col-md-6 mb-4">
+{%- unless p.url == '/research/projects/' %}
+<div class="col-md-6 mb-4">
     <div class="card h-100 shadow-sm">
         <div class="card-body">
             <div class="d-flex justify-content-between align-items-start mb-2">

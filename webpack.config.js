@@ -6,5 +6,5 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "javascript"),
   },
-  mode: "development",
+  mode: process.env.NODE_ENV || "development",
 };

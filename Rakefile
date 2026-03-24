@@ -24,11 +24,13 @@ end
 
 desc "Serve site locally"
 task :serve => webpacked_js do
-  sh("jekyll",
-     "serve",
-     "--incremental",
-     "--livereload",
-     "--host", ENV["HOST"] || "127.0.0.1")
+  command_line = ["jekyll", "serve"]
+  # Incremental build can cause stale content; disable by setting JEKYLL_INCREMENTAL=false
+  incremental = ENV.fetch("JEKYLL_INCREMENTAL", "true")
+  command_line << "--incremental" if incremental == "true"
+  command_line += ["--livereload",
+                   "--host", ENV["HOST"] || "127.0.0.1"]
+  sh(*command_line)
 end
 
 task :default => :serve

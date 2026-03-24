@@ -12,7 +12,7 @@ Website for the [QANTA project](https://new.qanta.org), hosted at GitHub Pages. 
 | Bundler | 4.0.x | Installed automatically via `gem install bundler` |
 | Node.js | 22 LTS | See `.nvmrc` (`lts/*`, currently v22) |
 | npm | 10.x | Bundled with Node.js 22 |
-| Jekyll | 4.4.1 | Installed via Bundler |
+| Jekyll | See Gemfile | Installed via Bundler |
 | Webpack | 5.x | Installed via npm |
 
 ---
