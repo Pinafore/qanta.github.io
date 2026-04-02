@@ -30,4 +30,58 @@ QANTA runs annual human vs. computer trivia competitions, pitting state-of-the-a
 
 ## History
 
-QANTA competitions began in 2015 when our system debuted at HSNCT and later played Ken Jennings at the University of Washington. Since then we have organized annual events at major NLP and AI venues. See the [Events page](/events/) for a full timeline.
+QANTA competitions began in 2015 when our system debuted at HSNCT and later played Ken Jennings at the University of Washington. Since then, events have included live human-vs-computer matches, adversarial question writing, and human-AI cooperative formats.
+
+### Timeline
+
+| Year | Milestone |
+|---|---|
+| 2025 | Human-AI Cooperative QA (in-person and online). |
+| 2024 | Human vs. Computer Open. |
+| 2023 | Human vs. Computer Open at UMD, supported by Meta. |
+| 2021 | CMSC 470 class event: students competed against trivia experts with a GPT-based system. |
+| 2020 | NeurIPS Efficient QA competition: speed/accuracy tradeoffs for question answering. |
+| 2019 | UMD undergraduates competed against Jeopardy! All-Stars. |
+| 2018 | Full tournament at UMD (co-located with NeurIPS 2018); "Rage Against the Machine" won. |
+| 2018 | "Trick Me" adversarial question writing collaboration with OUSIA. |
+| 2017 | Returned to HSNCT; organized NIPS 2017 competition (won by OUSIA). |
+| 2016 | Competed against top quiz bowlers at HSNCT; later held community-wide matchups. |
+| 2015 | QANTA debuted at HSNCT; later played Ken Jennings at the University of Washington. |
+
+### Past Event Videos
+
+<div class="row">
+  <div class="col-md-6 mb-4">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LqsUaprYMOw" title="QANTA at HSNCT 2015" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kTXJCEvCDYk" title="QANTA vs Ken Jennings" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c2kGD1EdfFw" title="QANTA v. Humanity" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bQHo7BApgAU" title="QANTA community competition" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bYFqMINXayc" title="QANTA at HSNCT 2017" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+### Legacy Links
+
+- [QANTA v. Humanity](https://www.youtube.com/watch?v=c2kGD1EdfFw)
+- [QANTA v. Humanity II](https://www.youtube.com/watch?v=LqsUaprYMOw)
+- [QANTA v. Humanity III](https://www.youtube.com/watch?v=kTXJCEvCDYk)
+- [2018 game results](http://users.umiacs.umd.edu/~jbg/qb/2018_QANTA/2018_qanta_games.html)
+- [Competition preprint (2018)](https://arxiv.org/abs/1809.02701)
